@@ -1,0 +1,7 @@
+[matching]
+'/NVIM ?\w*/' = ''
+'Obsidian' = ''
+'obsidian' = ''
+'Steam' = '󰓓'
+'/steam/' = '󰓓'
+'steam' = '󰓓'
