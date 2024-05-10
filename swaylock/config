@@ -1,0 +1,60 @@
+# indicator
+# no-unlock-indicator
+# datestr=%A
+# image=$HOME/.config/sway/swaylock.png
+# scaling=fill
+daemonize
+show-failed-attempts
+effect-vignette=0.5:0.5
+effect-blur=7x5
+screenshots
+clock
+indicator-caps-lock
+font=UbuntuMono
+font-size=30
+
+# Ring
+indicator-radius=115
+indicator-thickness=17
+# line-uses-ring
+## defaults
+# line-color=#3b4252
+# text-color=#d8dee9
+# inside-color=#2e344098
+# inside-ver-color=#5e81ac
+# line-ver-color=#5e81ac
+# ring-ver-color=#5e81ac98
+# ring-color=#4c566a
+# key-hl-color=#5e81ac
+# separator-color=#4c566a
+# layout-text-color=#eceff4
+# line-wrong-color=#d08770
+color=#24273a
+bs-hl-color=#ebd0bc
+caps-lock-bs-hl-color=#ebd0bc
+caps-lock-key-hl-color=#bfebbc
+inside-color=00000000
+inside-clear-color=00000000
+inside-caps-lock-color=00000000
+inside-ver-color=00000000
+inside-wrong-color=00000000
+key-hl-color=#bfebbc
+layout-bg-color=00000000
+layout-border-color=00000000
+layout-text-color=#cad3f5
+line-color=00000000
+line-clear-color=00000000
+line-caps-lock-color=00000000
+line-ver-color=00000000
+line-wrong-color=00000000
+ring-color=#bdd8ec
+ring-clear-color=#ebd0bc
+ring-caps-lock-color=#f5a97f
+ring-ver-color=#b2e1ee
+ring-wrong-color=#ee99a0
+separator-color=00000000
+text-color=#cad3f5
+text-clear-color=#ebd0bc
+text-caps-lock-color=#f5a97f
+text-ver-color=#b2e1ee
+text-wrong-color=#ee99a0
