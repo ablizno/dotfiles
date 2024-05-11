@@ -42,5 +42,6 @@ $ stow .
 - swaylock-effects
 - sworkstyle
 - keyd
-
+- nmtui
+- btop
 
