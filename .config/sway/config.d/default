@@ -212,6 +212,8 @@ bindsym $mod+r mode "resize"
     # Control volume through SwayOSD
     bindsym --locked XF86AudioRaiseVolume exec swayosd-client --output-volume 5
     bindsym --locked XF86AudioLowervolume exec swayosd-client --output-volume -5
+    bindsym --locked xF86AudioMute exec swayosd-client --output-volume mute-toggle
+    
 #
 # Player
 #
