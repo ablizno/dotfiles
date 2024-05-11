@@ -8,6 +8,7 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.colorscheme.nord-nvim"}
+  { import = "astrocommunity.colorscheme.nord-nvim" },
+  { import = "astrocommunity.colorscheme.poimandres-nvim" },
   -- import/override with your plugins folder
 }

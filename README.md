@@ -44,4 +44,5 @@ $ stow .
 - keyd
 - nmtui
 - btop
+- SwayOSD
 
