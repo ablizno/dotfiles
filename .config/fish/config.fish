@@ -7,3 +7,6 @@ fzf --fish | source
 
 # Enable zoxide
 # zoxide init fish | source
+
+# set default editor to nvim
+setenv EDITOR nvim
