@@ -14,10 +14,10 @@ exec sworkstyle &> /tmp/sworkstyle.log
 # set $initialize_foot_server '[ -x "$(command -v foot)" ] && systemctl --now --user enable foot-server.socket && systemctl --now --user enable foot-server'
      
 # Welcome App
-exec dex -a -s /etc/xdg/autostart/:~/.config/autostart/  
+# exec dex -a -s /etc/xdg/autostart/:~/.config/autostart/  
 
 # Sway Fader
 # exec python3 ~/.config/sway/scripts/swayfader.py      
 
 # OSD server
-exec swayosd-server
+# exec swayosd-server
