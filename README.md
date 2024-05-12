@@ -33,11 +33,11 @@ then use GNU stow to create symlinks
 $ stow .
 ```
 
-## Packages required for these configs
+## Config Dependencies
 - foot
 - fish
 - fuzzel
-- astronvim
+- nvim
 - sway
 - swaylock-effects
 - sworkstyle

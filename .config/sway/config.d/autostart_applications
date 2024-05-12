@@ -20,4 +20,4 @@ exec sworkstyle &> /tmp/sworkstyle.log
 # exec python3 ~/.config/sway/scripts/swayfader.py      
 
 # OSD server
-# exec swayosd-server
+exec swayosd-server
