@@ -10,7 +10,18 @@ input type:touchpad {
     tap disabled
     natural_scroll enabled
     # accel_profile "flat"
-    pointer_accel 0.5
+    pointer_accel 0.3
+}
+
+input "2:10:TPPS/2_ALPS_TrackPoint" {
+    accel_profile "flat"
+    pointer_accel 0.2
+}
+
+# Disable Wacom Pen
+# Probably should turn this into a shortcut action but its pissing me off right now
+input "1386:20920:Wacom_Pen_and_multitouch_sensor_Pen" {
+    events disabled
 }
 
 # Read `man 5 sway-input` for more information about this section.
