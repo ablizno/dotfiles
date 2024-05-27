@@ -11,10 +11,10 @@
  * -------------------------------------------------------------------------- */
 
 /*
-Arc-Dark Color Scheme
+ * Everforest color scheme
 */
-@define-color highlight #5294e2 ;
-@define-color base1  #404552 ;
+@define-color highlight #a7c080 ;
+@define-color base1  #2e383c ;
 
 @keyframes blink-warning {
     70% {
@@ -178,8 +178,8 @@ Arc-Dark Color Scheme
 }
 
 #workspaces button.urgent {
-    border-color: #c9545d;
-    color: #c9545d;
+    border-color: #e67e80;
+    color: #e67e80;
 }
 
 #custom-power {

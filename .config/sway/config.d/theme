@@ -15,14 +15,14 @@ font pango:Noto Sans Regular 10
 smart_borders on
 
 # Set wallpaper:
-exec swaybg -i ~/.config/sway/nordic_mountains.jpg
+exec swaybg -i ~/.config/sway/fog_forest.png
 
 # Title format for windows
 for_window [shell="xdg_shell"] title_format "%title (%app_id)"
 for_window [shell="x_wayland"] title_format "%class - %title"
 
 # class                 border  bground text    indicator child_border
-client.focused          #5294e2 #5294e2 #F8F8F2 #5294e2   #5294e2
+client.focused          #a7c080 #a7c080 #F8F8F2 #a7c080   #a7c080
 client.focused_inactive #44475A #44475A #F8F8F2 #44475A   #44475A
 client.unfocused        #282A36 #282A36 #BFBFBF #282A36   #282A36
 client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555
