@@ -2,8 +2,8 @@
 exec_always ~/.config/sway/scripts/import-gsettings
 
 # Set inner/outer gaps
-gaps inner 1
-gaps outer 1
+gaps inner 0
+gaps outer 0
 
 # Hide titlebar on windows:
 default_border pixel 1
@@ -13,6 +13,7 @@ font pango:Noto Sans Regular 10
 
 # Thin borders:
 smart_borders on
+smart_gaps off
 
 # Set wallpaper:
 exec swaybg -i ~/.config/sway/fog_forest.png
