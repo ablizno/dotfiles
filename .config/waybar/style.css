@@ -15,6 +15,7 @@
 */
 @define-color highlight #a7c080 ;
 @define-color base1  #2e383c ;
+@define-color foreground #d3c6aa; 
 
 @keyframes blink-warning {
     70% {
@@ -54,7 +55,7 @@
 /* The whole bar */
 #waybar {
     background: transparent;
-    color: #bebebe;
+    color: @foreground;
     background-color: @base1;
     font-family: UbuntuMono;
     font-size: 14px;
@@ -136,7 +137,7 @@
 #mode {
     background: @highlight;
     border-bottom: 3px transparent;
-    color:white;
+    color: @base1;
     margin-left: 5px;
     padding: 5px;
 }
@@ -163,6 +164,7 @@
 
 #workspaces {
     font-size:13px;
+    color: @foreground;
 }
 
 #workspaces button {
