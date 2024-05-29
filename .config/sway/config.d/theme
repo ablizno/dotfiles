@@ -13,7 +13,6 @@ font pango:Noto Sans Regular 10
 
 # Thin borders:
 smart_borders on
-smart_gaps off
 
 # Set wallpaper:
 exec swaybg -i ~/.config/sway/fog_forest.png
