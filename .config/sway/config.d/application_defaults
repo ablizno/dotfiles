@@ -3,15 +3,9 @@ assign [class="^steam$"] number 2
 for_window [class="^steam$"] focus
 assign [class="steam_app.*"] number 9
 for_window [class="steam_app.*"] fullscreen enable, focus 
-# assign [app_id=steam] 2
-# for_window [app_id=steam] focus
 
-# assign [class="Telegram"] 4
-# for_window [class="Telegram"] focus
-
-
-# for_window [app_id="xed"] focus
-
+# set split sizing for Steam Friends list
+for_window [title="^Friends List$"] resize set width 15 ppt
 
 # set floating (nontiling)for apps needing it:
 for_window [class="Yad" instance="yad"] floating enable
@@ -40,7 +34,7 @@ for_window [app_id="firefox" title="^Library$"] floating enable, border pixel 1,
 for_window [app_id="floating_shell_portrait"] floating enable, border pixel 1, sticky enable, resize set width 30 ppt height 40 ppt
 for_window [title="Picture in picture"] floating enable, sticky enable
 for_window [title="nmtui"] floating enable,  resize set width 50 ppt height 70 ppt
-# for_window [title="btop"] floating enable, resize set width 50 ppt height 70 ppt
+# for_window [title="btop"] floating enable, resize set width 150 ppt height 70 ppt
 for_window [app_id="xsensors"] floating enable
 for_window [title="Save File"] floating enable
 for_window [app_id="firefox" title="Firefox — Sharing Indicator"] kill
