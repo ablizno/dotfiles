@@ -14,6 +14,10 @@ font=UbuntuMono
 font-size=30
 
 # Ring
+# size
+indicator-radius=85
+
+#colors
 key-hl-color=a7c080
 
 separator-color=a7c080
