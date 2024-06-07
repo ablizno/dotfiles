@@ -3,7 +3,8 @@ assign [class="^steam$"] number 2
 for_window [class="^steam$"] focus
 assign [class="steam_app.*"] number 9
 for_window [class="steam_app.*"] fullscreen enable, focus 
-
+assign [title="^Project Diablo 2 Launcher$"] number 9 
+for_window [class="^Project Diablo 2 Launcher$"] focus 
 # set split sizing for Steam Friends list
 for_window [title="^Friends List$"] resize set width 15 ppt
 
