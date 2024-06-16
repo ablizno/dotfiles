@@ -7,7 +7,7 @@ set $mode_shutdown "\
 (<b>s</b>)shutdown \
 "
 
-set $purge_cliphist [ $purge_cliphist_logout == 'true' ] && rm -f $HOME/.cache/cliphist/db || exit 0
+set $purge_cliphist rm -f $HOME/.cache/cliphist/db || exit 0
 
 mode --pango_markup $mode_shutdown {
     # lock

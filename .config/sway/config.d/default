@@ -253,6 +253,9 @@ bindsym $mod+r mode "resize"
 #
 # cliphist
 #
+# Clear clipboard history on logout?
+    set $purge_clipihst_logout true
+
 # Launch the clipboard manager
     bindsym $mod+Ctrl+v exec cliphist list | fuzzel -d -w 50 -l 15 -p "Select an entry to copy it to your clipboard buffer:"| cliphist decode | wl-copy
     # Delete an entry from the clipboard manager
