@@ -20,9 +20,11 @@ input "2:10:TPPS/2_ALPS_TrackPoint" {
 
 # Disable Wacom Pen
 # Probably should turn this into a shortcut action but its pissing me off right now
-input "1386:20920:Wacom_Pen_and_multitouch_sensor_Pen" {
-    events disabled
-}
+# input "1386:20920:Wacom_Pen_and_multitouch_sensor_Pen" {
+    # events enabled
+# }
+bindsym XF86Favorites input "1386:20920:Wacom_Pen_and_multitouch_sensor_Pen" events toggle enabled disabled, \
+        exec notify-send Wacom_Pen "$(swaymsg -t get_inputs | jq -r '.[] | select(.identifier == \"1386:20920:Wacom_Pen_and_multitouch_sensor_Pen\").libinput.send_events')"
 
 # Read `man 5 sway-input` for more information about this section.
 #
