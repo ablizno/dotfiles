@@ -1,6 +1,6 @@
 # Dotfiles
 
-This contains the dotfiles for my EndeavourOS install.
+This contains the dotfiles for my Arch install.
 
 ## Requirements
 
